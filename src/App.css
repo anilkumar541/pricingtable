@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.data{
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +40,72 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.active {
+  border-radius: 3px;
+  border: 2px solid #97c3d3;
+  border-top-style: hidden;
+  color: black;
+    font-weight: 500;
+}
+
+
+td .active .table-cell{
+  background-color: #e8f6ff;
+}
+/* .table {
+ Add any additional styling for the table here 
+} */
+
+
+.header-cell {
+  background-color: white;
+  cursor: pointer;
+}
+
+.header-cell.active {
+  background-color: #007bb7;
+  color: white;
+}
+
+
+.actionButton  button {
+  background: #e8f6ff;
+  color: #1c7aa7;
+  border-color: #1c7aa7;
+  font-weight: 500;
+  width: -webkit-fill-available;
+  border-radius: 2px;
+  height: 40px;
+}
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  /* background-color: var(--bs-btn-hover-bg); */
+  border-color: #1c7aa7;
+}
+
+.btn{
+  border-radius: 2px;
+  height: 40px;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: var(--bs-btn-active-bg);
+  border-color: var(--bs-btn-active-border-color);
+  color: blue;
+  background: #e8f6ff;
+  border-color: cornflowerblue;
+
+  
+}
+
+
+span{
+  color: #7b7d83;
+}
+
+
